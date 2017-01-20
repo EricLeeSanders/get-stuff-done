@@ -1,10 +1,10 @@
-import { GoalAppPage } from './app.po';
+import { taskAppPage } from './app.po';
 
-describe('goal-app App', function() {
-  let page: GoalAppPage;
+describe('task-app App', function() {
+  let page: taskAppPage;
 
   beforeEach(() => {
-    page = new GoalAppPage();
+    page = new taskAppPage();
   });
 
   it('should display message saying app works', () => {

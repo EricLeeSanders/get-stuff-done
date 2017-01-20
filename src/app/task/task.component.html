@@ -1,0 +1,15 @@
+
+<article class="panel panel-default">
+    <div class="panel-body">
+        {{ task.name }}
+    </div>
+    <footer class="panel-footer">
+        <div class="task-minutes">
+            {{ task.minutes }}
+        </div>
+        <div class="config">
+            <a (click)="onEdit()">Edit</a>
+            <a (click)="onDelete()">Delete</a>
+        </div>
+    </footer>
+</article>

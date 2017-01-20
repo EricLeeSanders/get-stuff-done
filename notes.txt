@@ -1,0 +1,28 @@
+Useful sites/tutorials
+-https://scotch.io/tutorials/use-the-angular-cli-for-faster-angular-2-projects
+-https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
+    -good for getting started with MEAN stack
+
+Don't run this again
+-npm install -g angular-cli
+    - angular cli is a tool to create angular apps
+
+- create a new app / ng new [app name]
+    - new directory [app name] is created
+    - npm dependencies are installed
+    - TypeScript is configured for you
+    - the Karma unit test runner is configured for you
+    - the Protractor end-to-end test framework is configured for you
+    - environment files with default settings are created
+    
+
+- build angular app after every save / ng build
+
+Create server.js first
+-- to run the app / node server.js
+
+
+
+
+==================================================
+-
