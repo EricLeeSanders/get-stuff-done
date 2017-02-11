@@ -17,12 +17,18 @@ Don't run this again
     
 
 - build angular app after every save / ng build
+    - to automatically rebuild on change / ng build --watch
 
 Create server.js first
 -- to run the app / node server.js
 
-
+Can create new components with angular cli / ng generate component [name]
 
 
 ==================================================
--
+
+install jquery
+    - npm install --save jquery
+    - npm install -D @types/jquery
+    - add to tsconfig.json
+        -"allowSyntheticDefaultImports": true

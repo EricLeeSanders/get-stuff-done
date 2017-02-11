@@ -1,0 +1,17 @@
+.active {
+    background-color: #EF4652;
+}
+
+.btn:focus {
+    background-color: #EF4652;
+    outline:0;
+}
+
+.btn:hover {
+    background-color: #ED9098;
+}
+
+div {
+    margin-top: 25px;
+    padding:0;
+}

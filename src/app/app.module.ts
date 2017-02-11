@@ -7,9 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TaskComponent } from './task/task.component'
-import { TaskListComponent } from './task/task-list.component'
-import { TaskInputComponent } from './task/task-input.component'
+import { TaskComponent } from 'components/task/task.component'
+import { TaskListComponent } from 'components/task-list/task-list.component'
+import { TaskInputComponent } from 'components/task-input/task-input.component';
+import { ChangeTaskTypeComponent } from 'components/change-task-type/change-task-type.component';
+import { TaskInputModalComponent } from './components/task-input-modal/task-input-modal.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 // ES - Decorator - Angular uses these to configure your app
 @NgModule({
@@ -17,7 +20,10 @@ import { TaskInputComponent } from './task/task-input.component'
     AppComponent,
     TaskListComponent,
     TaskInputComponent,
-    TaskComponent
+    TaskComponent,
+    ChangeTaskTypeComponent,
+    TaskInputModalComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

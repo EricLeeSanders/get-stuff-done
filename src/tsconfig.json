@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": "./app",
     "declaration": false,
+    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["es6", "dom"],

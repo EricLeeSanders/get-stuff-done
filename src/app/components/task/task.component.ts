@@ -2,7 +2,7 @@
 import { Component, Input } from "@angular/core";
 
 import { Task } from "./task.model";
-import { TaskService } from "./task.service";
+import { TaskServiceHandler } from "services/task.service.handler";
 
 @Component({
     selector: 'app-task',
@@ -12,7 +12,7 @@ import { TaskService } from "./task.service";
 export class TaskComponent {
     @Input() task: Task;
     
-    constructor(private taskService: TaskService){
+    constructor(private taskServiceHandler: TaskServiceHandler){
     }
     
 }

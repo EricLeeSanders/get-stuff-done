@@ -1,7 +1,7 @@
-// Service classes are intermediate class between the front and back end
-import { Task } from "./task.model";
+import { Task } from "components/task/task.model";
 
-export class TaskService {
+export abstract class TaskService {
+
     private tasks: Task[] = [];
     
     addTask(task: Task){

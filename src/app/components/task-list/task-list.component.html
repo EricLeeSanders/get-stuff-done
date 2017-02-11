@@ -1,0 +1,11 @@
+<h2>{{taskType}}</h2>
+<app-task-input-modal></app-task-input-modal>
+<div class="task-list">
+    <app-task
+           [task]="task"
+            *ngFor="let task of tasks">
+        
+    </app-task>
+    <input id="new-task" type="image" (click)="showModal()" alt="new task" src="assets/images/new-task-img.png"/>
+</div>
+
