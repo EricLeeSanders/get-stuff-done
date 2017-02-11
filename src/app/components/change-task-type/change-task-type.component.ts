@@ -24,11 +24,12 @@ export class ChangeTaskTypeComponent implements OnInit {
     
     this.taskServiceHandler.setTaskService(this.todayTaskService);   
     this.serviceChange.emit('Tasks Today');
-    
-      $('.btn').on('click', function(){
-        $('.btn').removeClass('active');
-        $(this).addClass('active');
-      });
+
+    $('app-change-task-type .btn').on('click', function(){
+          console.log("init");
+      $('.btn').removeClass('active');
+      $(this).addClass('active');
+    });
 
   }
   

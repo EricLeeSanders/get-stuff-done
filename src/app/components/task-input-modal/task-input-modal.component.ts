@@ -21,6 +21,7 @@ export class TaskInputModalComponent {
   onSubmit(form: NgForm) {
       const task = new Task(form.value.taskname, form.value.taskminutes);
       this.taskServiceHandler.addTask(task);
+      this.modal.hide();
       form.resetForm();
   }
 }

@@ -1,6 +1,7 @@
-<h2>{{taskType}}</h2>
+
 <app-task-input-modal></app-task-input-modal>
 <div class="task-list">
+    <h2>{{taskType}}</h2>
     <app-task
            [task]="task"
             *ngFor="let task of tasks">
